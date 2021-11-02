@@ -1,13 +1,38 @@
-.father {
-  max-width: 0px;
+.container {
+  width: 300px;
   margin: 0 auto;
   display: flex;
   align-items: center;
-  flex-direction: column;
+  height: 100%;
+  margin-top: 50px;
 }
 
+input {
+  width: 300px;
+}
+
+button {
+  margin-left: 15px;
+  width: 90px;
+  height: 30px;
+}
 
 .list {
   display: flex;
   flex-direction: column;
+}
+
+
+.topContainer {
+  display: flex;
+}
+
+.item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.item:not(:last-child) {
+  margin-bottom: 15px;
 }
